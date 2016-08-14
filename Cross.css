@@ -1,0 +1,102 @@
+/* 
+2016年3月14日 
+程序名称：Cross 
+制作人：王雪 
+*/
+#size {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.block-up {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #00DB00;
+    position: relative;
+    margin-left: 100px;
+    box-shadow: 0 0 8px 5px #9AFF02;
+}
+
+.block-left {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #FF2D2D;
+    float: left;
+    box-shadow: 0 0 8px 5px #FF8040;
+}
+
+.block-icon {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #F9F900;
+    float: left;
+    box-shadow: 0 0 8px 5px #FFFF37;
+}
+
+.block-right {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #2894FF;
+    float: left;
+    box-shadow: 0 0 8px 5px #4DFFFF;
+}
+
+.block-down {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #6F00D2;
+    position: relative;
+    margin-left: 100px;
+    box-shadow: 0 0 8px 5px #9999CC;
+}
+
+.inner {
+    vertical-align: middle;
+}
+
+#image {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    margin-top: 38px;
+}
+
+#container {
+    width: 315px;
+    height: 102px;
+    text-align: center;
+}
+
+#container1 {
+    width: 315px;
+    height: 102px;
+    text-align: center;
+}
+
+#container2 {
+    width: 315px;
+    height: 105px;
+    text-align: center;
+}
+
+#box {
+    width: 315px;
+    height: 315px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -100px 0 0 -150px
+}
+
